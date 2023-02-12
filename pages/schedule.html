@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schedule</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/pages/index.html">Home</a></li>
+        <li><a href="/pages/index.html">Services</a></li>
+        <li><a href="/pages/about.html">About</a></li>
+        <li><a href="/pages/schedule.html">Schedule</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="schedule">
+    <h2>Schedule Your Appointment</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+      
+      <label for="service">Service:</label>
+      <select id="service" name="service" required>
+        <option value="Cryo slim/Tone">Cryo slim/Tone</option>
+        <option value="Cryo Life/Facial">Cryo Life/Facial</option>
+        <option value="Cryo Double Chin">Cryo Double Chin</option>
+        <option value="Pain Relief">Pain Relief</option>
+      </select>
+      
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+      
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required>
+      
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+  
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  
+  <script src="/script/script.js"></script>
+</body>
+</html>
